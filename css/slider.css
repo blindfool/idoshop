@@ -1,0 +1,245 @@
+.slider {
+    height:840px;
+    position:relative;
+	z-index: 50;
+}
+.slider .sliderContent {
+    width:100%;
+    height: 840px;
+    clear:both;
+    position:relative;
+    overflow:hidden;
+	z-index: 50;
+	box-sizing: border-box;
+}
+.slider .sliderArrows a {
+    display:block;
+    text-indent:-9999px;
+    outline:none;
+    z-index:150;
+    background-image:url('../images/slider/prev_next.png');
+    width:42px;
+    height:42px;
+    position:absolute;
+    top:50%;
+    margin-top:-21px;
+}
+.slider .prev {
+    background-position:0 0;
+    left:15px;
+}
+.slider .prev:hover {
+    background-position:0 -44px;
+}
+.slider .next {
+    right:15px;
+    background-position:-44px 0;
+}
+.slider .next:hover {
+    background-position:-44px -44px;
+}
+.slider .sliderContent .item {
+    position:absolute;
+    width: 100%;
+    height:840px;
+	z-index: 150;
+}
+.slider .sliderContent .item .image{
+    /*background:rgba(255,255,255,1);*/
+}
+.slider .sliderBullets {
+    position: absolute;
+    bottom: 50px;
+	right: 0;
+    z-index: 50;
+}
+
+.slider .sliderBullets a {
+    display:block;
+    float:left;
+    text-indent:-9999px;
+    outline:none;
+    margin-left:5px;
+    width:15px;
+    height:15px;
+    background:url(../images/slider_navpoints.png) no-repeat;
+}
+
+.slider .sliderBullets .active {
+    background-position:-22px 0px;
+}
+
+.slider .slide_content {
+	width: 100%;
+	text-align: center;
+	margin-top: 20%;
+	color: #fff;
+	font-size: 16px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.slide_text {
+	font-family: "Myriad Pro", Myriad, sans-serif;
+	color: #211214;
+	margin-bottom: 30px;
+}
+
+.slider_2 {
+	margin-top: 40px;
+	margin-bottom: 30px;
+    min-height:580px;
+    position:relative;
+	z-index: 50;
+	text-align: center;
+}
+.slider_2 .sliderContent {
+    width:65%;
+    min-height:580px;
+    clear:both;
+    position:relative;
+    overflow:hidden;
+	z-index: 50;
+	margin: 0 auto;
+}
+
+.slider_2 .sliderArrows a {
+    display:block;
+    text-indent:-9999px;
+    outline:none;
+    z-index:150;
+    width:101px;
+    height:101px;
+    position:absolute;
+    top:50%;
+    margin-top:-50.5px;
+}
+.slider_2 .prev {
+    background-image:url(../images/left_arr.png);
+	left:40px;
+}
+.slider_2 .next {
+	background-image:url(../images/right_arr.png);
+	right:40px;
+}
+.slider_2 .sliderContent .item {
+    position:absolute;
+    width:100%;
+    min-height:580px;
+	z-index: 150;
+}
+.slider_2 .sliderContent .item  img{
+	width: 100%;
+	height: auto;	
+}
+.slider_2 .sliderContent .item .image{
+    /*background:rgba(255,255,255,1);*/
+}
+.slider_2 .sliderBullets {
+    position: absolute;
+    left: 50%;
+    z-index: 50;
+    margin-left: -55px;
+}
+.slider_2 .sliderBullets a {
+    display:block;
+    float:left;
+    text-indent:-9999px;
+    outline:none;
+    margin-left:5px;
+    width:12px;
+    height:13px;
+    background:url(../images/slider/bullets.png) no-repeat;
+}
+.slider_2 .sliderBullets .active {
+    background-position:0 -14px;
+    margin-top: 1px;
+}
+.slider_2 .sliderContent a {
+    outline:none;
+}
+
+.slider_3 {
+	margin-left: 525px;
+    height:616px;
+    position:relative;
+	z-index: 50;
+}
+.slider_3 .sliderContent {
+    width:100%;
+    height: 616px;
+    clear:both;
+    position:relative;
+    overflow:hidden;
+	z-index: 50;
+	box-sizing: border-box;
+}
+.slider_3 .sliderArrows a {
+    display:block;
+    text-indent:-9999px;
+    outline:none;
+    z-index:150;
+    background-image:url('../images/slider/prev_next.png');
+    width:42px;
+    height:42px;
+    position:absolute;
+    top:50%;
+    margin-top:-21px;
+}
+.slider_3 .prev {
+    background-position:0 0;
+    left:15px;
+}
+.slider_3 .prev:hover {
+    background-position:0 -44px;
+}
+.slider_3 .next {
+    right:15px;
+    background-position:-44px 0;
+}
+.slider_3 .next:hover {
+    background-position:-44px -44px;
+}
+.slider_3 .sliderContent .item {
+    position:absolute;
+    width: 100%;
+    height:616px;
+	z-index: 150;
+}
+.slider_3 .sliderContent .item .image{
+    /*background:rgba(255,255,255,1);*/
+}
+.slider_3 .sliderBullets {
+    position: absolute;
+    bottom: 50px;
+	right: 0;
+    z-index: 50;
+}
+.slider_3 .sliderBullets a {
+    display:block;
+    float:left;
+    text-indent:-9999px;
+    outline:none;
+    margin-left:5px;
+    width:15px;
+    height:15px;
+    background:url(../images/slider_navpoints.png) no-repeat;
+}
+.slider_3 .sliderBullets .active {
+    background-position:-22px 0px;
+}
+.slider_3 .sliderContent a {
+    outline:none;
+}
+.slider_3 .slide_content {
+	width: 70%;
+	padding-top: 90px;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'HelveticaNeueCyr-Roman';
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
